@@ -1,7 +1,7 @@
 # Static members
 
 * Can be accessed directly by the class. It's not necessary to instantiate an object. It is true for data members and also for methods.
-* A good example of static 
+* A good example of the use of static is Singleton implementation.
 
 # Virtual Methods
 
@@ -15,7 +15,7 @@ p->f(); // Person
 
 /*
     Both cases call Person's method.
-    This happens by static binding
+    This happens by static binding.
 */
 
 class Person() {
@@ -31,7 +31,7 @@ Student * p = new Programmer();
 p->f(); // Programmer
 
 /*
-    As the methods has been declared as virtual, it will call the derived class method, dynamic binding. 
+    As the method has been declared as virtual, it will call the derived class method, dynamic binding. 
 
     WARNING! 
     In C++ and C#, you can declare a method as Virtual. In Java, all methods are Virtual by default.
@@ -51,6 +51,6 @@ class Person() {
 
 # Overloading and Overriding
 
-* **Overloading**: two methods with the same name, but the arguments or the function type is different.
+* **Overloading**: two methods with the same name, but the arguments or the function type are different.
 
 * **Overriding**: same name, type, arguments. Different from super class implementation.
