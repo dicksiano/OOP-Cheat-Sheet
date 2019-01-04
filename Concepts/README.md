@@ -1,9 +1,9 @@
-#Static members
+# Static members
 
 * Can be accessed directly by the class. It's not necessary to instantiate an object. It is true for data members and also for methods.
 * A good example of static 
 
-#Virtual Methods
+# Virtual Methods
 
 ```cpp
 
