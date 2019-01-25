@@ -11,6 +11,12 @@
 | **Variables**      | *no states*: only static final      | *stateful*: static, no-static, final, non-final |
 | **Multiple Inheritance** | *Implement* multiple interfaces      | *Extend* only one Abstract Class   |
 
+* First of all, an *Abstract Class* is a special type of class that can not be instantiated. 
+* Remember that a subclass can extends only one *Abstract Class*, but can implement multiple *Interfaces*. 
+* An *Abstract Class* can be partially implemented, an *Interface* only define the methods.
+
+**C++**: allows multiple inheritance
+
 # Virtual Methods
 
 ```cpp
