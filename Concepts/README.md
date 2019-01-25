@@ -3,6 +3,14 @@
 * Can be accessed directly by the class. It's not necessary to instantiate an object. It is true for data members and also for methods.
 * A good example of the use of static is Singleton implementation.
 
+# Interface vs Abstract Class
+
+|        | Interface           | Abstract Class  |
+| :-------------: |:-------------:| :-----:|
+| **Methods**      | only abstract | abstract and non-abstract |
+| **Variables**      | *no states*: only static final      | *stateful*: static, no-static, final, non-final |
+| **Multiple Inheritance** | *Implement* multiple interfaces      | *Extend* only one Abstract Class   |
+
 # Virtual Methods
 
 ```cpp
